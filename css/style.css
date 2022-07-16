@@ -11,7 +11,7 @@ nav li{
 	    margin: 0 13px;
 }
 #intro .jumbotron{
-	background: url('../pictures/mainbg.png');
+	background: url('/pictures/pic02.jpg');
 	background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
@@ -133,10 +133,10 @@ p.lead{
 	margin-right:5px;
 }
 #email{
-	padding: 50px 0px
+	padding: 50px 0px;
 }
 footer{
-	padding: 80px 0px
+	padding: 10px ;
 }
 #email p{
 	margin-top: 20px;
@@ -169,9 +169,10 @@ footer a{
 }
 footer a:hover{
 	color:#f05f5c;
+	
 }
 footer ul a:hover{
-	color: #707070;
+	color: lightslategray;
 	text-decoration: none;
 	opacity: 0.8;
 }
