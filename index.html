@@ -1,74 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-   <link rel="stylesheet" href="css/style.css">
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap" rel="stylesheet">
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
-   <title>HAPPYGO 購物商城</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&family=Open+Sans:ital,wght@1,300&display=swap"
+    rel="stylesheet">
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/cbd73ae2ca.js" crossorigin="anonymous"></script>
+  <title>HAPPYGO 購物商城</title>
 </head>
 
 <body>
-    <header>
-    <div class="container">
+  <header>
     <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-
-          <a class="navbar-brand" href="#">
-            <img src="pictures/logo.png" >
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="pictures/logo.png"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link active" aria-current="page" href="#">購物車</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  會員
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#">查詢訂單</a></li>
+                  <li><a class="dropdown-item" href="#">退訂</a></li>
+                  <li><a class="dropdown-item" href="#">追蹤清單</a></li>
+                </ul>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  分類
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">家具</a></li>
+                  <li><a class="dropdown-item" href="#">服飾</a></li>
+                  <li><a class="dropdown-item" href="#">生活用品</a></li>
+                  <li><a class="dropdown-item" href="#">3C電子商品</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">運動</a></li>
+                  <li><a class="dropdown-item" href="#">寵物</a></li>
+                  <li><a class="dropdown-item" href="#">美食</a></li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
+                <a class="nav-link disabled">聯絡我們</a>
               </li>
             </ul>
             <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
+              <input class="form-control me-0" type="search" placeholder="註冊獲得全站購物金與免運券！ " aria-label="Search"
+                style="border:1px solid orangered;border-bottom-right-radius:0;border-top-right-radius:0;border-right:none;width: 250px;">
+              <button class="btn btn-outline-success " type="submit"
+                style="border:1px solid orangered;border-bottom-left-radius:0;border-top-left-radius:0;border-left:none;width: 100px;">搜尋</button>
             </form>
           </div>
-         </div>
         </div>
-      </nav>
-    </header>
-    <section id="intro">
-        <!-- container-fluid響應式 bg-light背景顏色 p-5添加一个大的顶部填充 -->
-    <div class="container-fluid bg-secondary p-5">
-    <div class="container">
+   
+    </nav>
+  </header>
+  <section id="intro">
+    <div class="container-fluid bg-secondary p-5 ">
+      <div class="container">
         <div class="col-md-12">
-            <h1 class="display-4">HAPPYGO 購物商城</h1>
-            <p class="lead">在這裡選擇多更多!!</p>
-            <a class="btn btn-primary btn-lg" href="#" role="button">立即下單!</a>
-            </div>
+          <h1 class="display-4">HAPPYGO 購物商城</h1>
+          <p class="lead">在這裡選擇多更多!!</p>
+          <a class="btn btn-light btn-lg" href="#" role="button">來去晃晃</a>
         </div>
+      </div>
     </div>
-    </section>
+  </section>
+  <!-- 介簡區塊 -->
+  <section id="second">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 offset-md-0 text-center ">
+          <h3>愛寵世界 1922</h3>
+          <div class="row">
+            <div class="col-md-4 " style="margin:auto;">
+              <img src="/pictures/pet.png">
+              <h5>Mr.汪</h5>
+            </div>
+            <div class="col-md-4 ">
+              <p class="lead">為了毛小孩著想，相信唯有好的飼養觀念，正確的商品，及專業友善的美容，才能讓毛小孩自信開心。</p>
+              <p>我們希望能將「最新商品資訊、寵物行為基礎、飼養經驗指南、美容保健相關」的資訊。</p>
+              <p>分享給每位飼主讓毛小孩們有更優質的生活！</p>
+            </div>
+            <div class="col-md-4" style="margin:auto;">
+              <p>08-8225549</p>
+              <span><i class="fa-solid fa-heart"></i> 訂購專線</span><br>
+              <p></p>
+              <a class="btn btn-info btn-lg" href="#" role="button">購物連結</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 商品區 -->
+  </section>
+  <!--相片的區塊-->
+  <section id='latest'>
+    <div class="container">
+      <div class='row'>
+        <div class='col-md-12 text-center'>
+          <h3>特價商品區</h3>
+          <!--第一張相片-->
+          <div class='row'>
+            <div class='col-md-4 text-left'>
+              <div class='outer'>
+                <a href='single.html'>
+                  <div class='upper'>
+                    <img src='/picture2/cookies.jpg'>
+                  </div>
+                  <div class='lower'>
+                    <h3>雙11特價</h3>
+                    <span>餅乾</span>
+                    <h4>價格：$100</h4>
+                    <span><i class="fas fa-map-marker-alt"></i> 高雄市區</span><br>
+                    <span><i class="far fa-clock"></i> Nov 03, 2022 09:00PM</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <!--第二張相片-->
+            <div class='col-md-4 text-left'>
+              <div class='outer'>
+                <a href='single.html'>
+                  <div class='upper'>
+                    <img src='/picture2/sofa.jpg'>
+                  </div>
+                  <div class='lower'>
+                    <h3>雙11特價</h3>
+                    <span>家具</span>
+                    <h4>價格：$15000</h4>
+                    <span><i class="fas fa-map-marker-alt"></i> 新北市區</span><br>
+                    <span><i class="far fa-clock"></i> Nov 05, 2022 10:00PM</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <!--第三張相片-->
+            <div class='col-md-4 text-left'>
+              <div class='outer'>
+                <a href='single.html'>
+                  <div class='upper'>
+                    <img src='/picture2/tshirt.jpg'>
+                  </div>
+                  <div class='lower'>
+                    <h3>雙11特價</h3>
+                    <span>T-shirt</span>
+                    <h4> 價格：$500</h4>
+                    <span><i class="fas fa-map-marker-alt"></i> 彰化市區</span><br>
+                    <span><i class="far fa-clock"></i> Nov 13, 2022 06:00PM</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div>
+        </div>
+  </section>
+  <!--Email區塊-->
+  <section id='email'>
+    <div class="container">
+      <div class='row'>
+        <div class='col-md-8 offset-md-2 text-center'>
+          <h3>相關折扣訊息-郵寄</h3>
+        </div>
+      </div>
+      <div class='row'>
+        <div class='col-md-6 offset-md-2 text-left'>
+          <p>讓我們有最新折扣立刻通知你！</p>
+          <div class="input-group input-group-lg">
+            <input type="text" class="form-control" aria-label="Sizing example input"
+              aria-describedby="inputGroup-sizing-lg" placeholder="你的電郵">
+          </div>
+          <a class="btn btn-primary btn-lg" href="#" role="button">提交</a>
+        </div>
+      </div>
+    </div>
+  </section>
+   <!--footer的區塊-->
+   <footer>
+          
+    <div class="container">
+      <div class='row'>
+      <div class='col-md-4 text-left'>
+        <img src='/pictures/logo.png' width='200'>
+        <p>快樂買，把錢變成自己喜歡的東西!</p>
+      </div>
+      <div class='col-md-4 text-left'>
+        <h4>連結</h4>
+        <ul>
+            <li><a href='index.html'>首頁</a></li>
+            <li><a href='all.html'>會員問題</a></li>
+        </ul>
+        <ul>
+            <li><a href='/text1.html'>常見問題</a></li>
+            <li><a href='contact.html'>聯絡我們</a></li>
+        </ul>             
+      </div>
+      <div class='col-md-4 text-left'>
+        <h4>聯絡我們</h4>
+        <p>高雄市區<br>
+         Phone: (07) 87XXXXX<br>
+         E-Mail: <a href='mailto:xxx@gmail.com'>xxx@gmail.com</a>
+          </p>
+      </div>
+      </div>
+    </div>          
+  
+  </footer>
 </body>
+
 </html>
