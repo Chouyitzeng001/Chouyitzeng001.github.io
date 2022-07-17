@@ -96,10 +96,11 @@ p.lead{
 	left:30px;
 }
 #latest .vul1 {
-	background: #f0e0e0;
+	background: #fff;
 	border: 1px solid black;
-    padding: 5px 16px;
+    padding: 5px 20px;
     border-radius: 30px;
+	font-size: 20px;
 }
 
 #latest .outer:hover{
@@ -155,7 +156,7 @@ footer img{
 	margin-bottom: 30px;
 }
 footer h4{
-	font-size: 20px;
+	font-size: 24px;
     margin-bottom: 35px;
 
 }
