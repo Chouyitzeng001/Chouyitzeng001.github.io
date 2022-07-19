@@ -83,7 +83,7 @@ p.lead{
 
 #latest .upper img{
 	width: 600px;
-	height: 200px;
+	height: 300px;
 	border-radius: 15px;
 	border-bottom-left-radius: 0;
 	border-bottom-right-radius: 0;
@@ -117,7 +117,7 @@ p.lead{
 
 }
 #latest .col-md-4 .outer{
-	box-shadow: 15px 15px 8px 10px rgba(0,0,0,0.08);
+	box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.08);
 	padding: 0px;
 	margin: 0 5px;
 }
@@ -211,7 +211,7 @@ footer .vol2 li{
 	height: 45px;
 	position: fixed;
 	right: 10px;
-	bottom: 70px;
+	bottom: 150px;
   }
   .pagetop a {
 	display: block;
