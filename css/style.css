@@ -17,8 +17,14 @@ nav li{
     background-position: 50%;
     height: 50vh;
     margin-bottom: 0px;
-	
 }
+
+.dropdown-menu .dropdown-item:hover{
+	color: rgb(255, 255, 255);
+	background-color: green;
+	transition: 0.5s;
+}
+
 
 #intro .jumbotron .container{
 	position:relative;
@@ -104,9 +110,19 @@ p.lead{
 	font-size: 20px;
 }
 
-#latest .outer:hover{
-	opacity: 0.7;
+#latest  .upper{
+	overflow: hidden;
+	border-radius: 15px;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+#latest  img:hover{
+	transform: scale(110%);
 	transition: 0.5s;
+	
+	
+
 }
 
 #latest h4{
