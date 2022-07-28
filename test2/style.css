@@ -24,8 +24,11 @@
 }
 
 .sec p {
+    margin:20px 0px 20px;
     font-size: 20px;
-    color: lightcyan;
+    color: #FFF;
+    align-items: left;
+    
 }
 
 .header {
@@ -103,7 +106,7 @@ nav {
     width: 20%;
     /* height: calc(100vh - 50px); */
     position: absolute;
-    top: 110px;
+    top: 100px;
     left: -100%;
     transition: 0.5s;
 }
@@ -115,19 +118,22 @@ nav img {
 
 
 nav a {
+    width: 100%;
+    text-align: center;
     font-size: 20px;
     display: block;
     text-decoration: none;
-    text-align: left;
     color: #FFF;
-    padding: 10px 30px;
+    padding: 10px 20px;
     margin-left: 10px;
+    
 }
 
 nav a:hover {
-    width: 100%;
+    
     border-top: 1px solid #FFF;
     border-bottom: 1px solid #FFF;
+    
 }
 
 #menu_control:checked~.header nav {
@@ -242,7 +248,6 @@ nav a:hover {
         left: 0;
         display: flex;
         width: auto;
-        height: auto;
         top: 0;
         background-color: transparent;
     }
