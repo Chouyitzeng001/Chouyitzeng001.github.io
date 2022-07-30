@@ -207,7 +207,7 @@ nav a:hover {
     padding: 10px 0;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:960px) {
     nav a:hover {
         border-top: 0;
     }
@@ -227,14 +227,6 @@ nav a:hover {
 
 
 @media screen and (min-width:960px) {
-    .item-group {
-        display: flex;
-    }
-
-    .item-group1 {
-        display: flex;
-    }
-
     .menu_btn {
         display: none;
     }
@@ -266,18 +258,25 @@ nav a:hover {
         height: 100vh;
     }
 
-    .item img,
-    p {
+   
+    
+
+    .item-group ,.item-group1{
+        position: relative;
+        display: flex;
+    }
+
+    .item img,p {
         width: 80%;
         margin: 0px 30px 0px;
-        position: relative;
+        
     }
 
     .wrap {
        
         display: block;
         position: absolute;
-        left: 700px;
+        left: 600px;
         top: -400px;
         
     }
