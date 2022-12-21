@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <style>
+        #demo li{
+             list-style-type: none;
+             padding: 8px;
+             width: 25%;
+            
+        }
+
+        img{
+            width: 3%;
+        }
+    </style>
+
+<script>
+
+    $(document).ready(function(){
+
+        $("#demo li").hover(
+            function(){
+                $(this).prepend("<img src='images/on.gif' id='light'>");
+                $(this).css('background-color','black');
+                $(this).css('color','white');
+            },
+            
+            function(){
+                $(this).find('#light').remove();
+                $(this).css('background-color','inherit');
+                $(this).css('color','inherit');
+            }
+        
+        );
+
+    });
+</script>
+
+</head>
+<body>
+    
+    <div id="demo">
+
+        <h1>Welcome to Taiwan Fruit Stand</h1>
+        <ul>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Cherry</li>
+        </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Taiwan Fruit Stand</title>
+
+    <style>
+
+        .redFruit{
+             background-image: url('images/fruit/apple.jpg');
+             padding: 8px;
+        }
+
+        .greenFruit{
+             background-image: url('images/fruit/guava.jpg');
+             padding: 8px;
+        }
+
+        .yellowFruit{
+             background-image: url('images/fruit/banana.jpg');
+             padding: 8px;
+        }
+
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script>
+
+        $(document).ready(function(){
+
+            //Element Selector,元素(標籤)選擇器
+            $('h1').click(function(){
+                $(this).hide();
+            });
+
+
+            $('p').click(function(){
+                $(this).hide();
+            });
+
+
+            //ID Selector ,ID選擇器
+            $('#btnShow').click(function(){
+                $('h1').show();
+                $('p').show();
+            });
+
+            $('#btnHide').click(function(){
+                $('h1').hide();
+                $('p').hide();
+            });
+
+            //class Selector, 類別選擇器
+            $('.redFruit').mouseenter(function(){
+                $(this).css('color','white');
+                $('.redFruit ul').css('background-color','red');
+                $('.redFruit ul').css('padding-top','8px');
+                $('.redFruit ul').css('padding-bottom','8px');
+            }).mouseleave(function(){
+                $(this).css('color','inherit');
+            });    
+            
+
+            $('.greenFruit').mouseenter(function(){
+                $(this).css('color','white');
+                $('.greenFruit ul').css({
+                    'background-color':'green',
+                    'padding-top':'8px',
+                    'padding-bottom':'8px'
+                });
+               
+            }).mouseleave(function(){
+                $(this).css('color','inherit');
+            });    
+
+            $('.yellowFruit').mouseenter(function(){
+
+                //將style 物件指定給mystyle 變數
+                var mystyle={
+                    'background-color':'yellow',
+                    'padding-top':'8px',
+                    'padding-bottom':'8px'
+                };
+
+                $(this).css('color','white');
+                $('.yellowFruit ul').css(mystyle);
+               
+            }).mouseleave(function(){
+                $(this).css('color','inherit');
+            });    
+            
+
+            $('[class *=Fruit]').mouseleave(function(){
+
+                /*
+                var mystyle={
+                    'background-color':'inherit',
+                    'padding-top':'inherit',
+                    'padding-bottom':'inherit'
+                };*/
+
+                var mystyle={
+                    backgroundColor:'inherit',
+                    paddingTop:'inherit',
+                    paddingBottom:'inherit'
+                };
+                $('[class *=Fruit] ul').css(mystyle);
+            });
+
+        });
+
+  
+    </script>
+</head>
+<body>
+    
+    <h1>Welcome to Taiwan Fruit Stand</h1>
+    <hr>
+    <p>Let's go, take a fruit journey
+        Visitors can taste the fresh fruits of the season in Taiwan and experience the fun of fruit picking. Let us visit the gardens all over Taiwan.
+     </p>
+     
+    <p>In botany, a fruit is the seed-bearing structure in flowering plants that is formed from the ovary after flowering.</p>
+
+        <button id="btnShow">SHOW</button>
+        <button id="btnHide">HIDE</button>
+
+        <div class="redFruit">
+            <h3>紅色水果</h3>
+            <ul>
+                <li>蘋果</li>
+                <li>櫻桃</li>
+                <li>草莓</li>
+            </ul>
+        </div>
+       
+
+        <div class="greenFruit">
+            <h3>綠色水果</h3>
+            <ul>
+                <li>芭樂</li>
+                <li>西瓜</li>
+                <li>木瓜</li>
+            </ul>
+        </div>
+
+        <div class="yellowFruit">
+            <h3>黃色水果</h3>
+            <ul>
+                <li>香蕉</li>
+                <li>鳯梨</li>
+                <li>茫果</li>
+            </ul>
+        </div>
+</body>
+</html>

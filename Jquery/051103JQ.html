@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+
+    div{
+        box-sizing: border-box;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 1px solid green;
+        color:green;
+        padding-top: 80px;
+        float: left;
+        font-size: 1.5rem;
+        background-color: gold;
+        text-align: center;
+        margin-right: 8px;
+        display: none;
+
+    }
+
+    p{
+        font-size: 0.3rem;
+    }
+</style>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+<script>
+
+    $(document).ready(function(){
+
+        $("#down").click(function(){
+            $("#f1").slideDown(1000,function(){
+                $("#p1").html("蘋果<hr>含有大量的膳食纖維及維他命C");
+            });
+
+            $("#f2").slideDown(1500,function(){
+                $("#p2").html("蘋果<hr>含有大量的膳食纖維及維他命C");
+            });
+
+            $("#f3").slideDown(2000,function(){
+                $("#p3").html("蘋果<hr>含有大量的膳食纖維及維他命C");
+            });
+
+            $("#f4").slideDown(2500,function(){
+                $("#p4").html("蘋果<hr>含有大量的膳食纖維及維他命C");
+            });
+        });
+
+        $("#up").click(function(){
+            $("#f4").slideUp(1000);
+            $("#f3").slideUp(1500);
+            $("#f2").slideUp(2000);
+            $("#f1").slideUp(2500);
+        });
+        
+    });
+</script>
+
+</head>
+<body>
+
+    <h1>Welcome to Taiwan Fruit Stand</h1>
+    <button id="down">slideDown</button>
+    <button id="up">slideUp</button>
+    <hr>
+    
+   <div id="f1">
+       Apple
+       <p id="p1"></p>
+   </div>
+
+   <div id="f2">
+    Banana
+    <p id="p2"></p>
+    </div>
+
+    <div id="f3">
+        Cherry
+        <p id="p3"></p>
+    </div>
+
+    <div id="f4">
+        Mango
+        <p id="p4"></p>
+    </div>
+
+</body>
+</html>
