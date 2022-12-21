@@ -9,7 +9,7 @@ body{
 
 .backimg {
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/test2/pictures/background1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Project/test2/pictures/background1.jpg);
     background-size: cover;
     padding-left: 8%;
     padding-right: 8%;

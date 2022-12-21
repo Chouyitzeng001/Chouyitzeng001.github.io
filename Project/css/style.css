@@ -11,7 +11,7 @@ nav li{
 	    margin: 0 13px;
 }
 #intro .jumbotron{
-	background: linear-gradient(rgba(0,0,0,0.06),rgba(0,0,0,0.05),rgba(0,0,0,0.05)),url('/pictures/pic02.jpg');
+	background: linear-gradient(rgba(0,0,0,0.06),rgba(0,0,0,0.05),rgba(0,0,0,0.05)),url('/Project/pictures/pic02.jpg');
 	background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
@@ -73,7 +73,7 @@ p.lead{
 	line-height: 30px;
 }
 #latest {
-	background-image:url(/pictures/pic01.jpg);
+	background-image:url(/Project/pictures/pic01.jpg);
 	background-size: cover;
 	padding: 80px 0px;
 	

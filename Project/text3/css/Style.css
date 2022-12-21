@@ -195,7 +195,7 @@ p{
 /* --------main--------- */
 
 main .site-title {
-    background: url(/text3/pictures/Background-image.webp);
+    background: url(/Project/text3/pictures/Background-image.webp);
     background-size: 125%;
     background-repeat: no-repeat;
     height: 100vh;
@@ -237,7 +237,7 @@ main .site-title .btn:hover {
 /* ------main post-------- */
 
 main .blog {
-    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(/text3/pictures/Abract01.webp);
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(/Project/text3/pictures/Abract01.webp);
     background-position: center;
     height: 90vh;
     width: 100%;
