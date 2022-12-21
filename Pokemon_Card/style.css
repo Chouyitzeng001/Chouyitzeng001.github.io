@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #eff3ff;
+}
+
+.container{
+    width: 350px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+
+#card{
+    position: relative;
+    background-image: radial-gradient(circle at 50% 0%,orange 36% ,#fff 36%);
+    width: 100%;
+    padding: 30px 20px;
+    /* border: 1px solid black; */
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+}
+
+#card img{
+    display: block;
+    width: 180px;
+    max-height: 200px;
+    position: relative;
+    margin: 20px auto;
+}
+
+.hp{
+    width: 80px;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 30px;
+    margin-left: auto;
+    font-weight: 400;
+}
+
+.poke-name{
+    text-align: center;
+    font-weight: 600;
+}
+
+.types{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0 40px 0;
+}
+
+.hp span,
+.types span{
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    font-weight: 600    ;
+}
+.types span{
+    padding: 5px 20px;
+    border-radius: 20px;
+    color: #ffffff;
+}
+
+.stats{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.stats p{
+    color: #404060;
+}
+
+#btn{
+    display: block;
+    padding: 15px 60px;
+    font-size: 18px;
+    background-color: #101010;
+    color: #ffffff;
+    position: relative;
+    margin: 30px auto;
+    border: none;
+    border-radius: 5px;
+}
