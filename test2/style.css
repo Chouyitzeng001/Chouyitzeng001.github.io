@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    overflow-x: hidden;
+}
+
+.backimg {
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/test2/pictures/background1.jpg);
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.sec {
+    width: 100%;
+    display: inline-block;
+}
+
+.sec h1 {
+    font-size: 60px;
+    color: #fff;
+}
+
+.sec p {
+    margin:20px 0px 20px;
+    font-size: 20px;
+    color: #FFF;
+    align-items: left;
+    
+}
+
+.header {
+    height: 110px;
+    position: relative;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+}
+
+.logo a {
+    display: block;
+    margin: 40px;
+}
+
+.logo img {
+    display: block;
+}
+
+.logo img {
+    vertical-align: middle;
+}
+
+#menu_control {
+    position: absolute;
+    z-index: -2;
+    opacity: 0;
+}
+
+.menu_btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    display: block;
+    position: absolute;
+    top: 25px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.menu_btn:hover {
+    position: absolute;
+    top: 22px;
+    right: 7px;
+    border: 3px solid rgb(15, 8, 8);
+}
+
+.menu_btn span {
+    /* opacity: 0; */
+    color: #FFF;
+    display: block;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.menu_btn::before {
+    content: "";
+    position: absolute;
+    height: 3px;
+    left: 5px;
+    width: 30px;
+    background-color: #FFF;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    box-shadow: 0px 8px 0px #FFF,
+        0px -8px 0px #FFF;
+}
+
+nav {
+    width: 20%;
+    /* height: calc(100vh - 50px); */
+    position: absolute;
+    top: 100px;
+    left: -100%;
+    transition: 0.5s;
+}
+
+nav img {
+    width: 40px;
+    height: 40px;
+}
+
+
+nav a {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    display: block;
+    text-decoration: none;
+    color: #FFF;
+    padding: 10px 20px;
+    margin-left: 10px;
+    
+}
+
+nav a:hover {
+    
+    border-top: 1px solid #FFF;
+    border-bottom: 1px solid #FFF;
+    
+}
+
+#menu_control:checked~.header nav {
+    left: 0;
+}
+
+#menu_control:checked~.container {
+    margin-top: 170px;
+    transition: 0.5s;
+}
+
+
+.container {
+    width: 100%;
+    margin-top: 10px;
+    position: relative;
+}
+
+.item-group {
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    align-items: center;
+}
+
+.item-group1 {
+    width: 100%;
+    margin: auto;
+    align-items: center;
+}
+
+.item {
+    margin: 0 0px 20px;
+    transition: 0.5s;
+
+}
+
+.item:hover {
+    transform: translateY(-10px);
+}
+
+.item img {
+    width: 100%;
+    height: 50%;
+    margin: auto;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 5px;
+
+}
+
+.item p {
+    box-sizing: border-box;
+    font-size: 16px;
+    width: 80px;
+    height: 30px;
+    padding-top: 4px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #fff;
+
+}
+
+.footer {
+    background-color: #333;
+    color: #aaa;
+    text-align: center;
+    padding: 10px 0;
+}
+
+@media screen and (max-width:960px) {
+    nav a:hover {
+        border-top: 0;
+    }
+
+    .container {
+        margin-bottom: -20px;
+    }
+
+    .backimg {
+        width: 100%;
+        height: 100%;
+    }
+    .sec{
+        display: none;
+    }
+}
+
+
+@media screen and (min-width:960px) {
+    .menu_btn {
+        display: none;
+    }
+
+    .header {
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+
+    }
+
+    nav {
+        position: relative;
+        left: 0;
+        display: flex;
+        width: auto;
+        top: 0;
+        background-color: transparent;
+    }
+
+    .footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+
+    }
+
+    .backimg {
+        height: 100vh;
+    }
+
+   
+    
+
+    .item-group ,.item-group1{
+        position: relative;
+        display: flex;
+    }
+
+    .item img,p {
+        width: 70%;
+        margin: 0px 30px 0px;
+        
+    }
+
+    .wrap {
+       
+        display: block;
+        position: absolute;
+        left: 600px;
+        top: -400px;
+        
+    }
+
+    .sec {
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .sec p{
+        width: 100%;
+        display: inline-flex;
+        align-items: center;
+    }
+}
