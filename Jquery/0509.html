@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RWD</title>
+    <style>
+        source{
+            border-radius: 8px;
+        }
+        *{
+            box-sizing: border-box;
+        }
+        body{
+           margin: 0px;
+        
+        }
+        nav{
+            background-color: #bbdd21;
+        }
+        nav ul{
+            list-style-type: none;
+            display: flex;
+            justify-content: space-between;
+            
+            margin: 8px;
+
+        }
+        nav a{
+            text-decoration: none;
+            color: white;
+
+        }
+        nav li{
+            padding: 0.8em;;
+            display: flex;
+            justify-content: center;
+
+        }
+        nav li:hover{
+            background-color: goldenrod;
+        }
+        header{
+            background-image: url(images/fruit/peach.jpg);
+            width: 100%;
+            height: 25%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        header h1{
+            color: palegreen;
+            font-size: 50px;
+        }
+        /*mobile phone*/
+        [class*='col-']{
+            width: 100%;
+            float: left;
+            padding: 15px;
+        }
+        
+    /*tablet*/
+        @media only screen and (min-width:992px) {
+            .col-m-1{width:8.33%;}
+            .col-m-2{width:16.66%;}
+            .col-m-3{width:25.00%;}
+            .col-m-4{width:33.33%;}
+            .col-m-5{width:41.66%;}
+            .col-m-6{width:50.00%;}
+            .col-m-7{width:58.33%;}
+            .col-m-8{width:66.66%;}
+            .col-m-9{width:75.00%;}
+            .col-m-10{width:83.33%;}
+            .col-m-11{width:91.66%;}
+            .col-m-12{width:100.00%;}
+        }
+    /*pc*/
+        @media only screen and (min-width:1200px) {
+            .col-1{width:8.33%;}
+            .col-2{width:16.66%;}
+            .col-3{width:25.00%;}
+            .col-4{width:33.33%;}
+            .col-5{width:41.66%;}
+            .col-6{width:50.00%;}
+            .col-7{width:58.33%;}
+            .col-8{width:66.66%;}
+            .col-9{width:75.00%;}
+            .col-10{width:83.33%;}
+            .col-11{width:91.66%;}
+            .col-12{width:100.00%;}
+        }
+        audio{
+            width: 100%;
+        }
+        video{
+            width: 100%;
+            border-radius: 8px;
+        }
+        footer{
+            position: fixed;
+            bottom: 0px;
+            width: 100%;
+            padding-top: 8px;
+            text-align: center;
+            background-color: lightgray;
+        }
+        img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!--導覽-->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Service</a></li>
+        </ul>
+    </nav>
+    <!--標題-->
+    <header>
+        <h1>header</h1>
+    </header>
+    <!--主題-->
+    <main>
+        <div class="col-4 col-m-6" >
+            <audio controls>
+                <source src="baha.mp3" type="audio/mpeg">
+
+            </audio>
+            <video controls>
+                <source src="fish.webm" type="video/webm">
+            </video>
+        </div>
+        <div class="col-4 col-m-6" ><p>
+            Let's go, take a fruit journey
+Visitors can taste the fresh fruits of the season in Taiwan and experience the fun of fruit picking. Let us visit the gardens all over Taiwan.
+
+
+In botany, a fruit is the seed-bearing structure in flowering plants that is formed from the ovary after flowering.
+
+Fruits are the means by which flowering plants (also known as angiosperms) disseminate their seeds. Edible fruits in particular have long propagated using the movements of humans and animals in a symbiotic relationship that is the means for seed dispersal for the one group and nutrition for the other; in fact, humans and many animals have become dependent on fruits as a source of food. Consequently, fruits account for a substantial fraction of the world's agricultural output, and some (such as the apple and the pomegranate) have acquired extensive cultural and symbolic meanings.
+
+In common language usage, "fruit" normally means the fleshy seed-associated structures (or produce) of plants that typically are sweet or sour and edible in the raw state, such as apples, bananas, grapes, lemons, oranges, and strawberries. In botanical usage, the term "fruit" also includes many structures that are not commonly called "fruits", such as nuts, bean pods, corn kernels, tomatoes, and wheat grains.
+</p>
+        </div>
+        <div class="col-4 col-m-12" >
+            <picture>
+                <source srcset="imges\fruit\apple.jpg" media="max-width:991px">
+                <source srcset="imges\fruit\grapes.jpg" media="max-width:1199px">
+                <img src="images/fruit/banana.jpg">
+            </picture>
+
+
+        </div>
+    </main>
+    <!--頁尾-->
+    <footer>
+        all Service
+    </footer>
+
+</body>
+</html>

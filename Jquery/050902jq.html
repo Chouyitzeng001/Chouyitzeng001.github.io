@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jquery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('h1').click(function(){
+                $(this).hide();
+            });
+            $('p').click(function(){
+                $(this).hide();
+            });
+
+            $('#btnshow').click(function(){
+                $('h1').show();
+                $('p').show();
+            });
+
+            $('#btnhide').click(function(){
+                $('h1').hide();
+                $('p').hide();
+            });
+        });
+
+    </script>
+</head>
+<body>
+    <h1>My page</h1>
+    <hr>
+    <P>Let's go, take a fruit journey
+        Visitors can taste the fresh fruits of the season in Taiwan and experience the fun of fruit picking. Let us visit the gardens all over Taiwan. </P>
+    <p>In botany, a fruit is the seed-bearing structure in flowering plants that is formed from the ovary after flowering.</p>
+    <button id="btnshow">SHOW</button>
+    <button id="btnhide">HIDE</button>
+</body>
+</html>

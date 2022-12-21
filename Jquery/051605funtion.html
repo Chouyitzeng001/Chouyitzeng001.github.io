@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="demo"></div>
+    <div id="demo2"></div>
+    <div id="demo3"></div>
+    <div id="demo4"></div>
+<script>
+    const d1=document.getElementById('demo');
+    const d2=document.getElementById('demo2');
+    const d3=document.getElementById('demo3');
+    const d4=document.getElementById('demo4');
+
+    function test(){}
+
+    var fruit=function(r){
+        favorite=['香蕉','蘋果','荔枝','龍眼','西瓜'];
+        return favorite[r]
+
+    }
+        var r=Math.floor(Math.random()*5);
+        d1.innerHTML="我最愛的: "+fruit(r)
+
+
+        var r2=Math.floor(Math.random()*5);
+    (function(r){
+        favorite=['香蕉','蘋果','荔枝','龍眼','西瓜'];
+        d2.innerHTML="我最超愛的: "+ favorite[r];
+    })(r2);
+
+    (function(){
+        d3.innerHTML="Welcome to Taiwan Fruit Stsnd";
+    })();
+
+    var str='';
+    function myfruit(){
+        str +='一般函數:芒果<br>';
+        d4.innerHTML =str;
+    }
+    myfruit();
+    var myfruit2=()=>{
+        str +='一般函數:香蕉<br>';
+        d4.innerHTML =str;
+    }
+    myfruit2();
+
+
+function yourfruit(){
+    return str +='一般函數:草莓<br>';
+}
+d4.innerHTML=yourfruit();
+
+var yourfruit2=()=> str +='一般函數:流連<br>';
+d4.innerHTML=yourfruit2();
+
+var hisfruit=(price,qty)=> str +="一般函數:布丁<br>"+(price*qty)+"元<br>";
+d4.innerHTML=hisfruit(200,3);
+
+var hisfruit2=(price)=> str +="一般函數:芭樂<br>"+(price)+"元<br>";
+d4.innerHTML=hisfruit2(200);
+
+var hisfruit3=qty=> str+="一般函數:西瓜<br>"+(qty)+"顆<br>";
+d4.innerHTML=hisfruit3(3);
+
+
+
+
+</script>
+</body>
+</html>
