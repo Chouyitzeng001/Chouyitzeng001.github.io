@@ -18,10 +18,10 @@ https://chouyitzeng001.github.io/Project/text4/text4.html
 <h2> ---職訓局練習的網頁--- </h2>
 <h2> ---Jquery--- </h2>
 
-https://github.com/Chouyitzeng001/Chouyitzeng001.github.io/blob/main/Jquery/051103JQ.html
+https://chouyitzeng001.github.io/Jquery/0509.html
 
 
-<p> 使用 javascript 和 Jquery 一些語法 </p>
+<p> 學習使用React , javascript , Jquery語法 </p>
 
 <h2>  </h2>
 <p>  </p>
