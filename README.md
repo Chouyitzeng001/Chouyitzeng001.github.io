@@ -9,7 +9,7 @@ https://chouyitzeng001.github.io/Project/test2/dogshop.html
 https://chouyitzeng001.github.io/Project/text3/text3.html
 
 https://chouyitzeng001.github.io/Project/text4/text4.html
-<p> 這個是在聯成上課所學到的一些  HTML,CSS,Bootstrap </p>
+<p> 聯成課程 HTML,CSS,Bootstrap </p>
 
 
 
