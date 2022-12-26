@@ -13,8 +13,9 @@ https://chouyitzeng001.github.io/Project/text3/text3.html
 https://chouyitzeng001.github.io/Project/text4/text4.html
 <p> 這個是在聯成上課所學到的一些  HTML,CSS,Bootstrap </p>
 
-<h2> ---職訓局練習的網頁--- </h2>
+<hr>
 
+<h2> ---職訓局練習的網頁--- </h2>
 <h2> ---Jquery--- </h2>
 
 https://github.com/Chouyitzeng001/Chouyitzeng001.github.io/blob/main/Jquery/051103JQ.html
