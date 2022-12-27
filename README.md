@@ -20,14 +20,14 @@ https://chouyitzeng001.github.io/Jquery/0509.html
 
 <p> 學習使用React創建方式與Hooks運用 , javascript基礎ES6 , Jquery語法 </p>
 
-<h2> Pokemon_Card </h2>
+<h2> ---Pokemon_Card--- </h2>
 
 https://Chouyitzeng001.github.io/Pokemon_Card/index.html
 
 <p> 學習前端串接API </p>
 
 
-<h2> TodoList </h2>
+<h2> ---TodoList--- </h2>
 
 https://chouyitzeng001.github.io/TodoList/index.html
 
