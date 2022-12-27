@@ -38,4 +38,4 @@ https://chouyitzeng001.github.io/TodoList/index.html
 
 - ## 目前所學技術🔎
 
-<img height="32" width="32" src="https://cdn.simpleicons.org/HTML5" /><img height="32" width="32" src="https://cdn.simpleicons.org/CSS3" /><img height="32" width="32" src="https://cdn.simpleicons.org/JavaScript" /><img height="32" width="32" src="https://cdn.simpleicons.org/Python" /><img height="32" width="32" src="https://cdn.simpleicons.org/Django" /><img height="32" width="32" src="https://cdn.simpleicons.org/C" />
+<img height="32" width="32" src="https://cdn.simpleicons.org/HTML5" /><img height="32" width="32" src="https://cdn.simpleicons.org/CSS3" /><img height="32" width="32" src="https://cdn.simpleicons.org/JavaScript" /><img height="32" width="32" src="https://cdn.simpleicons.org/Python" /><img height="32" width="32" src="https://cdn.simpleicons.org/Django" /><img height="32" width="32" src="https://cdn.simpleicons.org/C" />#
