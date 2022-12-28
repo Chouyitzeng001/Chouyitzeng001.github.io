@@ -4,7 +4,7 @@
 
 - 📫 How to reach me **ivan59438@gmail.com**
 
-- 📓 Resume：https://www.cakeresume.com/wei-wei-e8a62e
+- 📓 Resume：
 
 
 
