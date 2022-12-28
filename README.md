@@ -57,6 +57,7 @@ https://chouyitzeng001.github.io/TodoList/index.html
    <img alt="Font Awesome" src="https://img.shields.io/badge/Font_Awesome-339AF0?style=for-the-badge&logo=fontawesome&logoColor=white" />
     <img alt="Heroku" src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white" />
    <img alt="GITHUB" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
-   <img height="32" width="32" src="https://cdn.simpleicons.org/C#" />#<img height="32" width="32" src="https://cdn.simpleicons.org/Django" />
+   <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green" />
+   <img height="32" width="32" src="https://cdn.simpleicons.org/C#" />#
 
 </p>
