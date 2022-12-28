@@ -1,6 +1,4 @@
-#🛫 🛫 🛫
-<img height="80" width="500"  src="https://img.shields.io/static/v1?label=%3CIvan%3E&message=%3CProject%3E&color=red">
-
+<img height="80" width="500"  src="https://img.shields.io/static/v1?label=%3CIvan%3E&message=%3CProject%3E&color=red">🛫 🛫 🛫
 
 # 靜態作品 💻︎
 
@@ -40,6 +38,4 @@ https://chouyitzeng001.github.io/TodoList/index.html
 
 - ## 目前所學技術🔎
 
-<img height="32" width="32" src="https://cdn.simpleicons.org/VisualStudioCode" />
-<img height="32" width="32" src="https://cdn.simpleicons.org/VisualStudio" />
-<img height="32" width="32" src="https://cdn.simpleicons.org/React" /><img height="32" width="32" src="https://cdn.simpleicons.org/HTML5" /><img height="32" width="32" src="https://cdn.simpleicons.org/CSS3" /><img height="32" width="32" src="https://cdn.simpleicons.org/JavaScript" /><img height="32" width="32" src="https://cdn.simpleicons.org/Python" /><img height="32" width="32" src="https://cdn.simpleicons.org/Django" /><img height="32" width="32" src="https://cdn.simpleicons.org/C#" />#
+<img height="32" width="32" src="https://cdn.simpleicons.org/VisualStudioCode" /><img height="32" width="32" src="https://cdn.simpleicons.org/VisualStudio" /><img height="32" width="32" src="https://cdn.simpleicons.org/React" /><img height="32" width="32" src="https://cdn.simpleicons.org/HTML5" /><img height="32" width="32" src="https://cdn.simpleicons.org/CSS3" /><img height="32" width="32" src="https://cdn.simpleicons.org/JavaScript" /><img height="32" width="32" src="https://cdn.simpleicons.org/Python" /><img height="32" width="32" src="https://cdn.simpleicons.org/Django" /><img height="32" width="32" src="https://cdn.simpleicons.org/C#" />#
